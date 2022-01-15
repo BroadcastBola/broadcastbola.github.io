@@ -113,51 +113,6 @@
 </div>
 <!-- Trakteer & Saweria LINK -->
 
-<!-- LINK -->
-<div class="px-4 mx-auto mb-4 sm:max-w-xl">
-  <div class="grid max-w-2xl sm:mx-auto">
-    <a href="#" target="_blank" class="overflow-hidden border hover:border-gray-400 transition-colors rounded-2xl shadow-sm">
-      <div class="flex items-center justify-center text-center p-5 bg-white rounded-sm">
-        <div class="pr-4">
-          <i class="text-3xl fas fa-trophy"></i>
-          <span class="text-3xl mb-2 font-semibold leading-5">Piala Dunia FIFA 2022 </span><i class="text-3xl fas fa-trophy"></i>
-          <p class="text-sm text-gray-900">Hitung Mundur  <!-- Display the countdown timer in an element -->
-	<p class="text-xl mb-2 font-semibold leading-5" "style="" id="demo"></p>
-<script>
-
-var countDownDate = new Date("November 21, 2022 12:30:00").getTime();
-var x = setInterval(function() {
-
-  // Get the time
-  var now = new Date().getTime();
-
-  // AAAND THE CALCULATIONISMS
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  
-  document.getElementById("demo").innerHTML = days + " hari " + hours + " jam "
-  + minutes + " menit " + seconds + " detik ";
-
-  // YEET 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "YEET";
-  }
-}, 1000);
-</script></p>
-        </div>
-      </div>
-    </a>
-  </div>
-</div>
-<!-- LINK -->
-
 <!-- FOOTER DIVIDER -->
 <div class="px-4 mx-auto mb-4 sm:max-w-xl">
   <div class="py-4 grid max-w-2xl sm:mx-auto text-center ">
